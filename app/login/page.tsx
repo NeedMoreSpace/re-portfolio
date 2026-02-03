@@ -297,10 +297,11 @@ export default function Dashboard() {
 if (!userId) {
   return (
     <div style={{ padding: 24, fontFamily: "system-ui" }}>
-      Not logged in on localhost. Go to <a href="/login">/login</a>
+      Not logged in. Go to <a href="/login">/login</a>
     </div>
   );
 }
+
 
 
   return (
@@ -598,3 +599,5 @@ const btnStylePrimary: React.CSSProperties = {
   cursor: "pointer",
   fontWeight: 900,
 };
+/ /   r e d e p l o y  
+ 
